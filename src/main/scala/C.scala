@@ -1,4 +1,4 @@
-package C
+/*package C
 trait ValuesDomain { domain =>
   type DomainReferenceValue <: ReferenceValue
   type DomainValue <: Value with AnyRef
@@ -54,4 +54,4 @@ trait DefaultArrayValuesBinding extends DefaultReferenceValuesBinding with Array
 
 trait ArrayValues extends ReferenceValues {
   domain =>
-}
+}*/

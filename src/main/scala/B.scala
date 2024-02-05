@@ -1,4 +1,4 @@
-object DomainReferenceValue
+/*object DomainReferenceValue
 trait Type
 trait ValueInformation
 class ReferenceType extends Type
@@ -85,4 +85,4 @@ trait DefaultArrayValuesBinding extends DefaultReferenceValuesBinding with Array
 
 trait ArrayValues extends ReferenceValues {
   domain: CorrelationalDomain with ConcreteIntegerValues =>
-}
+}*/

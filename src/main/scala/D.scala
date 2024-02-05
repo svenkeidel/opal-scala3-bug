@@ -10,8 +10,8 @@ trait DefaultReferenceValuesBinding extends ReferenceValues {
   override type DomainReferenceValue = AReferenceValue
 }
 
-class DefaultConcreteArrayValuesBinding extends DefaultArrayValuesBinding
-
 trait DefaultArrayValuesBinding extends DefaultReferenceValuesBinding with ReferenceValues {
   domain =>
 }
+
+class DefaultConcreteArrayValuesBinding extends DefaultArrayValuesBinding
